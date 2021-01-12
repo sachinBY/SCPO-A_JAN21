@@ -20,8 +20,8 @@
 <entity-map scpoEntityName="billofmaterial" bi-directional="true">
     	 <table name="bom">
     		
-    		<column hostColumnName="sap1" scpoColumnName="udc5"/>
-    		<column hostColumnName="sap2" scpoColumnName="udc6"/>
+    		<column hostColumnName="SAP1" scpoColumnName="UDC5"/>
+    		<column hostColumnName="SAP2" scpoColumnName="UDC6"/>
     		<!--<column hostColumnName="sap3" scpoColumnName="udc7"/>
     		<column hostColumnName="sap4" scpoColumnName="udc8"/>
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
