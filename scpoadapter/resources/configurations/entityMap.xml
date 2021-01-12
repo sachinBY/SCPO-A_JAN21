@@ -22,6 +22,10 @@
     		
     		<column hostColumnName="SAP1" scpoColumnName="UDC5"/>
     		<column hostColumnName="SAP2" scpoColumnName="UDC6"/>
+		 <column hostColumnName="UDC_STR1" scpoColumnName="UDC_ATTRIBURE_STR1"/>
+		 <column hostColumnName="UDC_DTE1" scpoColumnName="UDC_ATTRIBURE_DTE1" dataType="date"/>
+		 <column hostColumnName="UDC_NUM1" scpoColumnName="UDC_ATTRIBURE_NUM1" dataType="integer"/>
+		 <column hostColumnName="UDC_FLT1" scpoColumnName="UDC_ATTRIBURE_FLT1" dataType="float"/>
     		<!--<column hostColumnName="sap3" scpoColumnName="udc7"/>
     		<column hostColumnName="sap4" scpoColumnName="udc8"/>
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
