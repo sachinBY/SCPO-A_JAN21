@@ -22,12 +22,12 @@
     		
     		<column hostColumnName="sap1" scpoColumnName="udc5"/>
     		<column hostColumnName="sap2" scpoColumnName="udc6"/>
-    		<column hostColumnName="sap3" scpoColumnName="udc7"/>
+    		<!--<column hostColumnName="sap3" scpoColumnName="udc7"/>
     		<column hostColumnName="sap4" scpoColumnName="udc8"/>
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
-    		<column hostColumnName="sap6" scpoColumnName="udc10"/>
+    		<column hostColumnName="sap6" scpoColumnName="udc10"/> -->
     	</table>
-    	<table name="altbom">
+    	<!-- <table name="altbom">
     	
     		<column hostColumnName="sap1" scpoColumnName="udc5"/>
     		<column hostColumnName="sap2" scpoColumnName="udc6"/>
@@ -44,7 +44,7 @@
     		<column hostColumnName="sap4" scpoColumnName="udc8"/>
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
     		<column hostColumnName="sap6" scpoColumnName="udc10"/>
-    	</table> 
+    	</table>  -->
     </entity-map>
     <entity-map scpoEntityName="cal" bi-directional="true">
     	<!-- <table name="cal">
