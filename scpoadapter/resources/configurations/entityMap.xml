@@ -31,16 +31,20 @@
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
     		<column hostColumnName="sap6" scpoColumnName="udc10"/> -->
     	</table>
-    	<!-- <table name="altbom">
-    	
+    	 <table name="altbom">
+    		 <column hostColumnName="ALTUDC_STR1" scpoColumnName="UDC_ATTRIBURE_STR1"/>
+		 <column hostColumnName="ALTUDC_DTE1" scpoColumnName="UDC_ATTRIBURE_DTE1" dataType="date"/>
+		 <column hostColumnName="ALTUDC_NUM1" scpoColumnName="UDC_ATTRIBURE_NUM1" dataType="integer"/>
+		 <column hostColumnName="ALTUDC_FLT1" scpoColumnName="UDC_ATTRIBURE_FLT1" dataType="float"/>
+		 <!--
     		<column hostColumnName="sap1" scpoColumnName="udc5"/>
     		<column hostColumnName="sap2" scpoColumnName="udc6"/>
     		<column hostColumnName="sap3" scpoColumnName="udc7"/>
     		<column hostColumnName="sap4" scpoColumnName="udc8"/>
     		<column hostColumnName="sap5" scpoColumnName="udc9"/>
-    		<column hostColumnName="sap6" scpoColumnName="udc10"/>
+    		<column hostColumnName="sap6" scpoColumnName="udc10"/> -->
     	</table>
-    	<table name="UDT_BOM" isUDT="true">
+    	<!--<table name="UDT_BOM" isUDT="true">
     		
     		<column hostColumnName="sap1" scpoColumnName="udc5"/>
     		<column hostColumnName="sap2" scpoColumnName="udc6"/>
