@@ -67,6 +67,24 @@
     	</table>  -->
     </entity-map>
     <entity-map scpoEntityName="cal" bi-directional="true">
+	  <table name="cal">
+    		<column hostColumnName="UDC6" scpoColumnName="UDC6"/>
+    		<column hostColumnName="UDC7" scpoColumnName="UDC7"/>
+		<column hostColumnName="UDC8" scpoColumnName="UDC8"/>
+		<column hostColumnName="UDC9" scpoColumnName="UDC9"/>
+    	</table>
+    	<table name="calpattern">
+		<column hostColumnName="UDC10" scpoColumnName="UDC10"/>
+	</table>
+	 <table name="calattribute">
+		<column hostColumnName="UDC11" scpoColumnName="UDC11"/>
+	</table>
+	<table name="UDT_CAL" isUDT="true">
+    		 <column hostColumnName="UDT_STR1" scpoColumnName="UDT_ATTRIBUTE_STR1"/>
+		 <column hostColumnName="UDT_DTE1" scpoColumnName="UDT_ATTRIBUTE_DTE1" dataType="date"/>
+		 <column hostColumnName="UDT_NUM1" scpoColumnName="UDT_ATTRIBUTE_NUM1" dataType="integer"/>
+		 <column hostColumnName="UDT_FLT1" scpoColumnName="UDT_ATTRIBUTE_FLT1" dataType="float"/>
+    	</table>     
     	<!-- <table name="cal">
     		<column hostColumnName="description" scpoColumnName="udc1"/>
     		<column hostColumnName="calendarStartDate" scpoColumnName="udc2" dataType="date"/>
