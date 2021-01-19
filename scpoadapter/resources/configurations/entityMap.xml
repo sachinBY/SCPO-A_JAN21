@@ -160,6 +160,21 @@
     	</table> -->
     </entity-map>
     <entity-map scpoEntityName="custorder" bi-directional="true">
+	    
+	    <table name="custorder">
+    		<column hostColumnName="UDC1" scpoColumnName="UDC1"/>
+    		<column hostColumnName="UDC2" scpoColumnName="UDC2"/>
+    		
+    	</table>
+    	<table name="custorderheader">
+    	      	<column hostColumnName="UDC3" scpoColumnName="UDC1"/>
+    		<column hostColumnName="UDC4" scpoColumnName="UDC2"/>
+    	</table>
+    	<table name="UDT_CUSTORDER" isUDT="true">
+    		<column hostColumnName="UDT1" scpoColumnName="UDC1"/>
+    		<column hostColumnName="UDT2" scpoColumnName="UDC2"/>
+    		
+    	</table
     	<!-- <table name="custorder">
     		<column hostColumnName="creationDateTime" scpoColumnName="udc1" dataType="datetime"/>
     		<column hostColumnName="orderIdentification/entityIdentification" scpoColumnName="udc2"/>
