@@ -125,6 +125,25 @@
     	</table> -->
     </entity-map>
     <entity-map scpoEntityName="cust" bi-directional="true">
+	    table name="cust">
+		<column hostColumnName="streetAddressOne" scpoColumnName="UDC_STREET_ADDRESS"/>
+		<column hostColumnName="city" scpoColumnName="UDC_CITY"/>
+		 <column hostColumnName="addressDistrict" scpoColumnName="UDC_DISTRICT"/>
+		 <column hostColumnName="postalCode" scpoColumnName="UDC_POSTAL"/>
+		 <column hostColumnName="pOBoxNumber" scpoColumnName="UDC_POBOX"/>
+		 <column hostColumnName="addressRegion" scpoColumnName="UDC_REGION"/>
+		 <column hostColumnName="countryCode" scpoColumnName="UDC_COUNTRYCODE"/>
+		 <column hostColumnName="communicationValue" scpoColumnName="UDC_TELEPHONE"/>
+		 <column hostColumnName="salesOrganisation" scpoColumnName="UDC_SALESORG"/>
+		 <column hostColumnName="channel" scpoColumnName="UDC_CHANNEL"/>
+		 <column hostColumnName="division" scpoColumnName="UDC_DIVISION"/>
+		 <column hostColumnName="customerGroup" scpoColumnName="UDC_CUSTOMERGROUP"/>
+		 <column hostColumnName="accountGroup" scpoColumnName="UDC_ACCOUNTGROUP"/>
+		 <column hostColumnName="salesOffice" scpoColumnName="UDC_SALESOFFICE"/>
+		 <column hostColumnName="primaryId" scpoColumnName="UDC_DELIVERINGPLANT"/>
+    	</table>
+	    
+	    
     	<!-- <table name="cust">
     		<column hostColumnName="basicParty/partyName" scpoColumnName="udc1"/>
     		<column hostColumnName="basicParty/partyAddress/city" scpoColumnName="udc2"/>
