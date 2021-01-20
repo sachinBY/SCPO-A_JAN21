@@ -142,6 +142,11 @@
 		 <column hostColumnName="salesOffice" scpoColumnName="UDC_SALESOFFICE"/>
 		 <column hostColumnName="primaryId" scpoColumnName="UDC_DELIVERINGPLANT"/>
     	</table>
+	<table name="UDT_CUST" isUDT="true">
+    		<column hostColumnName="UDT1" scpoColumnName="UDC1"/>
+    		<column hostColumnName="UDT2" scpoColumnName="UDC2"/>
+    		
+	    </table>
 	    
 	    
     	<!-- <table name="cust">
