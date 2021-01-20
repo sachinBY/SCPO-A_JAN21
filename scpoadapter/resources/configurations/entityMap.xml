@@ -125,7 +125,7 @@
     	</table> -->
     </entity-map>
     <entity-map scpoEntityName="cust" bi-directional="true">
-	    table name="cust">
+	    <table name="cust">
 		<column hostColumnName="streetAddressOne" scpoColumnName="UDC_STREET_ADDRESS"/>
 		<column hostColumnName="city" scpoColumnName="UDC_CITY"/>
 		 <column hostColumnName="addressDistrict" scpoColumnName="UDC_DISTRICT"/>
